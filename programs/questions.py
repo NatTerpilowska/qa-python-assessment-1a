@@ -1,21 +1,3 @@
-    # INSTRUCTIONS
-
-    # In case it is not clear, the Question appears first, then examples, then any hints and finally the function that you need to complete appears underneath:
-
-    # <QUESTION>
-
-    # <EXAMPLES>
-
-    # <HINT>
-
-    # You are allowed access to the internet for this assessment, or you could use the DOCUMENTATION that comes bundled with your Python installation.  You should already be comfortable accessing this documentation, but to summarise:
-
-    # Access Python from you CLI
-
-    # Type help() or for example help(str)
-
-
-
     # <QUESTION 1>
 
     # Define a function that can accept two strings as input and returns the string with maximum length to the console. 
@@ -35,8 +17,15 @@
     # What was the name of the function we have seen to check the length of a container?  Use your CLI to access the Python documentation and get help(len).
 
 def one(input1, input2):
-    pass
 
+    if len(str(input1)) > len(str(input2)) :
+       return (input1)
+
+    elif len(str(input1)) > len(str(input2)):
+       return (input2)
+
+    else:
+       return (input1) (" ") (input2)
 
     # <QUESTION 2>
 
@@ -61,8 +50,7 @@ def one(input1, input2):
     # Use your CLI to access the Python documentation and get help manipulating strings - help(str).
 
 def two(input):
-    pass
-
+    return input(word.lower.split('bert'))
 
     # <QUESTION 3>
 
@@ -84,8 +72,15 @@ def two(input):
     # No Hints for this question
 
 def three(arg1):
-    pass
-
+    if arg1 % 3 == 0 and arg1 % 5 == 0:
+        result1 = "FizzBuzz"
+        return(arg1, result1)
+    elif arg1 % 3 == 0:
+        result2 = "Fizz"
+        return(arg1, result2)
+    elif arg1 % 5 == 0:
+        result3 = "Buzz"
+        return(arg1, result3)
 
     # <QUESTION 4>
 
@@ -110,8 +105,13 @@ def three(arg1):
     # help(int) for working with numbers and help(str) for working with Strings.
 
 def four(arg1):
-    pass
+    four = 0
+    for x in arg1:
+        if x.isdigit() == True:
+            z = int(x)
+            four = four + z
 
+    return four
 
     # <QUESTION 5>
 
@@ -160,8 +160,17 @@ def five(input):
     # Step through the logic here in order to solve the problem, you may find help(range) helpful.
 
 def six(input):
-    pass
-
+    def check(input):
+      if "cie" in input:
+        return False
+      elif "cei" in input:
+        return True
+      elif "ei" in input:
+        return False
+      elif "ie" in input:
+        return True
+      else:
+        return True
 
     # <QUESTION 7>
 
@@ -177,8 +186,18 @@ def six(input):
 
     # How do we ignore case in a String? help(str) may offer some insight.
 
+
+def vowel():
+    return input.lower() in ['a', 'e', 'i', 'o', 'u']
+
 def seven(input):
-    pass
+    count = 0
+    for i in range(len(str)):
+        if vowel(str[i]):
+            count += 1
+    return count
+ 
+    
 
 
     # <QUESTION 8>
@@ -194,11 +213,12 @@ def seven(input):
 
     # <HINT>
 
+def eight(input)
+    for range (1, 10)
+    (int(input))
+    ################## I've no time to finish this
+
     # You may need to create a list of numbers from 0 to i, take a look at help(range).
-
-def eight(input):
-    pass
-
 
     # <QUESTION 9>
 
